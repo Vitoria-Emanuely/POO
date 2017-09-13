@@ -21,26 +21,4 @@ $minhaConta->deposita(2000);
 
 echo $minhaConta->getDono()->nome;
 
-//nao é possível por ser privado
-//$minhaConta->saldo = -500;
 
-//var_dump($minhaConta);
-
-//$conseguiSacar = $minhaConta->sacar(1600);
-//
-//if ($conseguiSacar){
-//    print 'consegui sacar';
-//} else{
-//    print 'nao foi possível sacar';
-//}
-//
-//
-//$contaAmigo = new Conta();
-//$contaAmigo->dono = "Fulvio";
-//$contaAmigo->setSaldo(0);
-//
-//
-//$minhaConta->trasferePara($contaAmigo, 15);
-//
-//var_dump($minhaConta);
-//var_dump($contaAmigo);
